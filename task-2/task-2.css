@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color:  rgba(194, 123, 135, 0.941);
+
+}
+.top-head{
+    display: flex;
+}
+.profile{
+    padding: 10px;
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-left: 0.1rem solid black; 
+}
+.adu{
+   border-right:0.1rem solid black ;
+   height: 25%;
+}
+#bio{
+    display: flex;
+    flex-direction: column;
+    justify-content:  space-between;
+   height: 17rem;
+   align-self:center ;
+}
+#profile{
+    height: 60px;
+    display: inline;
+    padding: 20px;
+    border: 0.1rem solid black;
+    border-radius: 50%;
+}
+.profile{
+    align-self: center;
+}
+#name{
+    font-size: 1.5rem;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+    padding: 05px;
+    text-decoration: underline;
+
+}
+#bio{
+    width: 50%;
+}
+#my-bio{
+    font-size: 1.5rem;
+    
+}
+#my-main{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    animation: 3s ease-in 1s infinite reverse both running slidein;
+}
+#portfolio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height:  35rem; 
+    background-color: rgb(208, 94, 113);
+}
+#photo{
+    margin-top: 7rem;
+    height: 20rem;
+    border-radius: 50%;
+    border: 5px solid rgba(10, 10, 10, 0.853);
+    align-self: center;
+}
+#photo:hover{
+    translate: 25px 25px 25px;
+}
+.resume{
+   font-size: 1.2rem;
+   padding: 0.3rem;
+   border: 0.1rem solid black;
+   text-align: center;
+   border-radius: 0.2rem;
+   display: inline;
+   font-weight: bold;
+   background-color: rgba(26, 104, 95, 0.671);
+   color: rgb(5, 6, 6);
+}
+.resume:hover{
+    background-color: rgba(40, 143, 131, 0.671);
+}
+#adi{
+    margin-top: 2rem;
+    display: flex;
+    width: 50%;
+    height: 30%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.resume-adu{
+    padding: 0.5rem;
+   font-size: 1.2rem;
+   border: 0.1rem solid black;
+   text-align: center;
+   border-radius: 0.2rem;
+   display: inline;
+   font-weight: bold;
+   background-color: rgba(69, 129, 122, 0.671);
+   color: rgb(5, 6, 6);
+}
+.resume-adu:hover{
+    background-color:rgba(176, 42, 161, 0.66);
+}
