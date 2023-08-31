@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin:0;
+}
+#first{
+    background-color: rgba(0, 255, 255, 0.686);
+    height: 35rem;
+    width: 30rem;
+    border-radius: 25px;
+    margin: 22rem;
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-evenly;
+
+}
+#two{
+    height: 5rem;
+    width: 95%;
+    margin: 1rem;
+    background-color: rgba(0, 0, 0, 0.493);
+    border-radius: 0.5rem;
+}   
+.one{
+    height: 2rem;
+    width: 2rem ;
+    margin: 0.5rem;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+#second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#third{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#new{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.sec{
+    height: 2rem;
+    width: 2rem ;
+    margin: 0.5rem;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+.three{
+    height: 2rem;
+    width: 2rem;
+    margin: 0.5rem;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+.third{
+    height: 2rem;
+    width: 2rem;
+    margin: 0.5rem;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.493); 
+}
+#img{
+    height: 2rem;
+}
+#four{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#five{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.fourth{
+    height: 2rem;
+    width: 2rem;
+    margin: 0.5rem;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.493); 
+}
